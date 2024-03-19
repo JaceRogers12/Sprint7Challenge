@@ -1,11 +1,11 @@
 import React from 'react'
 import Home from './Home'
 import Form from './Form'
-import {NavLink, Routes, BrowserRouter, Route} from "react-router-dom"
+import {NavLink, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
-  <BrowserRouter>
+  
     <div id="app">
       <nav>
         {/* NavLinks here */}
@@ -18,7 +18,7 @@ function App() {
       </Routes>
       {/* Route and Routes here */}
     </div>
-  </BrowserRouter>
+
   )
 }
 

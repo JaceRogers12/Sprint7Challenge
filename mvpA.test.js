@@ -242,5 +242,8 @@ describe('Sprint 7 Challenge Codegrade Tests', () => {
         expect(screen.queryByText(validationError, queryOptions)).not.toBeInTheDocument()
       }, waitForOptions)
     })
+    // test("is this thing on?", () => {
+    //   expect(true).toBe(true)
+    // })
   })
 })
